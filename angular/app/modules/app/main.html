@@ -12,5 +12,5 @@
             <button type="submit" ng-disabled="itemForm.$invalid">Add an item</button>
         </div>
     </form>
-    <item-single ng-class="" ng-repeat="item in vm.items" item="item"></item-single>
+    <item-single ng-class="vm.styles.item-single" ng-repeat="item in vm.items" item="item"></item-single>
 </div>

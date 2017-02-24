@@ -12,7 +12,7 @@ export default class itemSingle {
     }
 
     geniusMethodYay = (args) => {
-
+        console.log(this.styles)
         console.log(args)
     }
 }
