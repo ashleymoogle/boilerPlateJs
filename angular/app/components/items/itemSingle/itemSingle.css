@@ -2,13 +2,13 @@
     border: 2px solid pink
 }
 
-.item-single div:first-child{
+.item-single-first{
     font-weight:bolder;
     font-size:large;
     text-decoration:underline;
 }
 
-.item-single div:last-child{
+.item-single-last{
     font-style:italic;
     font-weight:bolder;
 }

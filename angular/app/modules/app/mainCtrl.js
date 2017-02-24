@@ -1,6 +1,8 @@
+import styles from './main.css'
+
 export default function mainCtrl() {
     //console.log('controller')
-
+    this.styles = styles
     this.items = [
         {
             "name": "Cat",

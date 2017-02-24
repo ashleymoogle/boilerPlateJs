@@ -1,6 +1,6 @@
 import {observer} from 'mobx-react'
 
-import './AppContainer.css'
+import styles from './AppContainer.css'
 
 @observer
 class AppContainer extends React.Component {
@@ -18,7 +18,7 @@ class AppContainer extends React.Component {
         console.log(store)
         return (
             <div className={"wrapper"}>
-                <button onClick={this.handleClick}>Click me</button>
+                <button className={styles.buttonClass} onClick={this.handleClick}>Click me</button>
                 <br/>
                 <span>{this.state.bool.toString()}</span>
             </div>

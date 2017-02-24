@@ -12,7 +12,7 @@ import run from './modules/app/config/run'
 import mainCtrl from './modules/app/mainCtrl'
 import {itemSingle} from './components'
 
-import './modules/app/main.css'
+import './styles.css'
 
 const app = angular.module('app', [
     'ui.router',

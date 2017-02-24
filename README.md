@@ -39,7 +39,7 @@ to watch code
 ##TODO :
 - [x] Web workers ? Webpack magic to regenerate cache from service worker at each build (moved to https://github.com/ashleymoogle/service-worker-init)
 - [ ] Redux instead of mobX ? (React app working with redux from this starter kit here : https://github.com/ashleymoogle/react-redux-sample)
-- [ ] Css modules
+- [x] Css modules
 - [ ] Ui toolkit
 - [ ] Better install, especially on windows
 
