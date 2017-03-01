@@ -14,6 +14,10 @@ Enjoy :)
 ```
 npm run super-install
 ```
+OR
+```
+make install
+```
 
 It's going to install yarn (global) and some packages, including a ton of webpack stuff.
 
@@ -24,15 +28,27 @@ Choose between React or Angular and let it install a full set of useful libs for
 ```
 yarn run build
 ```
+OR
+```
+make webpack
+```
 for production build
 
 ```
 yarn start
 ```
+OR
+```
+make start
+```
 to init server AND watch (with hot module replacement)
 
 ```
 yarn run watch
+```
+OR
+```
+make watch
 ```
 to watch code
 
