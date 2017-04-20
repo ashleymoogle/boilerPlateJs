@@ -1,12 +1,12 @@
 {
   "presets": [
-    ["latest", {
-      "es2015": {
-        "modules": false
+    ["env", {
+      "targets": {
+        "browsers": ["> 1%", "last 2 versions", "IE 11"]
       }
     }],
-    "react",
-    "stage-2"
+    ["react"],
+    ["stage-2"]
   ],
   "plugins": ["es6-promise","transform-decorators-legacy","react-require"],
   "env": {
