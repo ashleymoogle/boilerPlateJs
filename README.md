@@ -10,7 +10,7 @@ Enjoy :)
 
 *If your node is not up to date and yarn asks you a recent version, edit the scripts in package.json by adding --ignore-engines after each yarn command.
 
-####Start with
+#### Start with
 ```
 npm run super-install
 ```
@@ -52,7 +52,7 @@ make watch
 ```
 to watch code
 
-##TODO :
+## TODO :
 - [x] Web workers ? Webpack magic to regenerate cache from service worker at each build (moved to https://github.com/ashleymoogle/service-worker-init)
 - [x] Redux instead of mobX ? (React app working with redux from this starter kit here : https://github.com/ashleymoogle/react-redux-sample)
 - [x] Css modules
