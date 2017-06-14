@@ -51,7 +51,14 @@ let common = {
                             }
                         },
                         {
-                            loader: "postcss-loader"
+                            loader: "postcss-loader",
+                            options: {
+                                plugins: [
+                                    require('autoprefixer')({
+                                        browsers: ['last 2 versions'] 
+                                    })
+                                ]
+                            }
                         }
                     ],
                     publicPath: "/build/dist" // Overrides output.publicPath
@@ -79,13 +86,6 @@ let common = {
     stats: {
     },
     plugins: [
-        new webpack.LoaderOptionsPlugin({
-           options:{
-               postcss: [
-                   autoprefixer({ browsers: ['last 2 versions'] })
-               ],
-           }
-        }),
         new ExtractTextPlugin({
             filename:'[name].bundle.css',
             disable:false,
